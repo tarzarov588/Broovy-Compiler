@@ -1,0 +1,127 @@
+==========================================
+
+Broovy Compiler - Git Ignore
+
+Project: Broovy-Compiler
+
+Language: Broovy
+
+Internal Name: brvy
+
+Version: 2.0.11 (1.2.0.11)
+
+Codename: Promvy
+
+==========================================
+
+Gradle
+
+.gradle/
+.gradle-cache/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+Java
+
+*.class
+*.jar
+.war
+.ear
+hs_err_pid
+replay_pid
+
+Kotlin
+
+*.kotlin_module
+
+Android Studio
+
+.idea/
+*.iml
+local.properties
+.cxx/
+.externalNativeBuild/
+
+IntelliJ IDEA
+
+out/
+.idea_modules/
+
+Kotlin/Gradle
+
+.kotlin/
+**/.kotlin/
+
+Generated files
+
+generated/
+tmp/
+temp/
+.cache/
+
+Logs
+
+*.log
+logs/
+
+Operating systems
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+Editors
+
+.vscode/
+*.swp
+*.swo
+*~
+
+Environment files
+
+.env
+.env.*
+!.env.example
+
+Testing
+
+test-results/
+**/test-results/
+coverage/
+*.exec
+
+Compiled binaries
+
+*.dex
+*.apk
+*.aab
+*.so
+*.o
+*.obj
+
+Archives
+
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+Backup files
+
+*.bak
+*.backup
+*.old
+*.orig
+
+Temporary files
+
+*.tmp
+*.temp
+*.cache
+
+==========================================
+
+End of Broovy Compiler Git Ignore
+
+==========================================
