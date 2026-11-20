@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131f">
+  <meta name="description" content="Broovy — Broovy Programming and Gradle Structured Broovy Language. Conheça a linguagem, o compilador e o BroovySDK.">
+  <title>Broovy — Programming Language</title>
+  <link rel="icon" href="assets/image-1795133104753.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Broovy início">
+      <img class="brand-image" src="assets/image-1795133104753.jpg" alt="Ícone desenhado da Broovy">
+      <span>Broovy<span class="brand-dot">.</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#about">Sobre</a>
+      <a href="#compiler">Compiler</a>
+      <a href="#sdk">BroovySDK</a>
+      <a href="#docs">Documentação</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="nav-github" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="status-dot"></span> EM DESENVOLVIMENTO <span class="eyebrow-divider">·</span> CODENAME PROMVY</div>
+        <h1>Build with<br><span>Broovy.</span></h1>
+        <p class="hero-subtitle">Broovy Programming and Gradle Structured Broovy Language</p>
+        <p class="hero-copy">Uma linguagem de programação estruturada de médio nível, em desenvolvimento com seu próprio ecossistema de compilação e execução.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Conhecer a Broovy <span>→</span></a>
+          <a class="button button-secondary" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener">Ver repositório ↗</a>
+        </div>
+        <div class="hero-meta">
+          <span><small>VERSÃO</small> 2.0.11 (1.2.0.11)</span>
+          <span><small>IDENTIFICADOR</small> broovy</span>
+          <span><small>SDK</small> BroovySDK</span>
+        </div>
+      </div>
+      <div class="code-card" aria-label="Exemplo ilustrativo de código Broovy">
+        <div class="code-card-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hello.broovy</span><span class="code-label">EXEMPLO ILUSTRATIVO</span></div>
+        <pre><code><span class="code-purple">// A first look at Broovy</span>
+<span class="code-blue">program</span> <span class="code-green">HelloBroovy</span> {
+    <span class="code-blue">function</span> <span class="code-yellow">main</span>() {
+        <span class="code-blue">print</span>(<span class="code-orange">"Hello, Broovy!"</span>);
+    }
+}</code></pre>
+        <div class="code-card-bottom"><span>●</span> Exemplo conceitual — sintaxe ainda não finalizada</div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="facts-strip" aria-label="Resumo do projeto">
+      <div><strong>2026</strong><span>ANO DE CRIAÇÃO</span></div>
+      <div><strong>Medium-level</strong><span>NÍVEL DE ABSTRAÇÃO</span></div>
+      <div><strong>Static + Strong</strong><span>SISTEMA DE TIPOS DEFINIDO</span></div>
+      <div><strong>Structured</strong><span>PARADIGMA DEFINIDO</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="section-kicker">01 / SOBRE A LINGUAGEM</span>
+        <h2>Uma linguagem.<br><span>Um ecossistema.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="section-lead">Broovy é um projeto de linguagem de programação que busca construir uma experiência estruturada, com especificação própria, compilador, interpretador e ferramentas de desenvolvimento.</p>
+        <div class="info-panel">
+          <div class="info-row"><span>Nome completo</span><strong>Broovy Programming and Gradle Structured Broovy Language</strong></div>
+          <div class="info-row"><span>Abreviação</span><strong>BPGEL</strong></div>
+          <div class="info-row"><span>Nome interno</span><strong>brvy</strong></div>
+          <div class="info-row"><span>Codinome</span><strong>Promvy</strong></div>
+          <div class="info-row"><span>Organização</span><strong>Corporação Abecáz</strong></div>
+          <div class="info-row"><span>Origem</span><strong>Brasil 🇧🇷</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="compiler">
+      <div class="section-heading">
+        <span class="section-kicker">02 / COMPILAÇÃO E EXECUÇÃO</span>
+        <h2>Conheça o <span>Broovy Compiler.</span></h2>
+        <p>O projeto prevê duas formas de processar programas Broovy: compilação e interpretação. A arquitetura e os detalhes técnicos estão em desenvolvimento.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌘</div><h3>Broovy Compiler</h3><p>Compilador próprio planejado para analisar e transformar código-fonte Broovy.</p><span class="tag tag-progress">Em desenvolvimento</span></article>
+        <article class="feature-card"><div class="feature-icon">▷</div><h3>Broovy Interpreter</h3><p>Interpretador próprio planejado para executar código Broovy diretamente.</p><span class="tag tag-planned">Planejado</span></article>
+        <article class="feature-card"><div class="feature-icon">⚙</div><h3>Build com Gradle</h3><p>Gradle faz parte do ecossistema de desenvolvimento e automação do projeto.</p><span class="tag tag-planned">Integração em definição</span></article>
+      </div>
+    </section>
+
+    <section class="section sdk-section" id="sdk">
+      <div class="sdk-copy">
+        <span class="section-kicker">03 / SOFTWARE DEVELOPMENT KIT</span>
+        <h2>Apresentando<br><span>BroovySDK.</span></h2>
+        <p>O BroovySDK faz parte da proposta do ecossistema Broovy. Sua composição, APIs, ferramentas e processo de instalação serão documentados conforme forem definidos.</p>
+        <a class="text-link" href="#docs">Acompanhar documentação <span>→</span></a>
+      </div>
+      <div class="sdk-visual">
+        <div class="sdk-orbit"></div>
+        <img class="sdk-logo-image" src="assets/image-1795133104753.jpg" alt="Ícone original da Broovy">
+        <div class="sdk-caption">ÍCONE ORIGINAL DA BROOVY</div>
+      </div>
+    </section>
+
+    <section class="section docs-section" id="docs">
+      <div class="section-heading">
+        <span class="section-kicker">04 / CENTRAL DE CONHECIMENTO</span>
+        <h2>Documentação <span>Broovy.</span></h2>
+        <p>Os materiais técnicos serão publicados à medida que a linguagem e suas ferramentas forem especificadas.</p>
+      </div>
+      <div class="docs-grid">
+        <a class="doc-card" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener"><span>01</span><div><h3>Introdução</h3><p>Visão geral e objetivos do projeto.</p></div><b>↗</b></a>
+        <a class="doc-card" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener"><span>02</span><div><h3>Especificação da linguagem</h3><p>Sintaxe, tipos, operadores e regras.</p></div><b>↗</b></a>
+        <a class="doc-card" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener"><span>03</span><div><h3>Arquitetura do compilador</h3><p>Componentes e pipeline de compilação.</p></div><b>↗</b></a>
+        <a class="doc-card" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener"><span>04</span><div><h3>BroovySDK</h3><p>Referência do kit de desenvolvimento.</p></div><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="section roadmap-section" id="roadmap">
+      <div class="section-heading">
+        <span class="section-kicker">05 / CAMINHO DE DESENVOLVIMENTO</span>
+        <h2>Construindo <span>passo a passo.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item current"><span class="timeline-marker"></span><div><small>FASE ATUAL</small><h3>Definição da linguagem</h3><p>Identidade, requisitos, especificação e arquitetura inicial.</p><span class="tag tag-progress">Em desenvolvimento</span></div></div>
+        <div class="timeline-item"><span class="timeline-marker"></span><div><small>PRÓXIMAS ETAPAS</small><h3>Infraestrutura do compilador</h3><p>Lexer, parser, análise semântica e geração de código.</p><span class="tag tag-planned">Planejado</span></div></div>
+        <div class="timeline-item"><span class="timeline-marker"></span><div><small>ECOSSISTEMA</small><h3>Interpretador e BroovySDK</h3><p>Execução, ferramentas, bibliotecas e integração de build.</p><span class="tag tag-planned">Planejado</span></div></div>
+        <div class="timeline-item"><span class="timeline-marker"></span><div><small>LANÇAMENTO</small><h3>Primeira versão pública</h3><p>Janela prevista: 3 de dezembro de 2026 a 1 de fevereiro de 2027.</p><span class="tag tag-planned">Previsão — não confirmada</span></div></div>
+      </div>
+    </section>
+
+    <section class="section developers-section" id="developers">
+      <div class="section-heading">
+        <span class="section-kicker">06 / QUEM ESTÁ CONSTRUINDO</span>
+        <h2>Desenvolvido pela<br><span>Corporação Abecáz.</span></h2>
+      </div>
+      <div class="developer-list">
+        <div><span class="developer-avatar">T</span><div><strong>Curaçao Abecáz de Tarzarov Carvalho</strong><small>Tarzarov588</small></div></div>
+        <div><span class="developer-avatar">G</span><div><strong>Gabriel de Moraes</strong><small>Desenvolvedor</small></div></div>
+      </div>
+      <div class="country-note">Criado no Brasil <span>🇧🇷</span></div>
+    </section>
+
+    <section class="cta-section">
+      <span class="section-kicker">ACOMPANHE O PROJETO</span>
+      <h2>O futuro da Broovy<br>está sendo construído.</h2>
+      <p>Acompanhe o desenvolvimento no repositório oficial.</p>
+      <a class="button button-primary" href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener">Visitar Broovy-Compiler ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="brand-mark">B</span><span>Broovy<span class="brand-dot">.</span></span></a>
+    <p>Broovy Programming and Gradle Structured Broovy Language</p>
+    <div class="footer-bottom"><span>© 2026 Corporação Abecáz. Projeto em desenvolvimento.</span><a href="https://github.com/Tarzarov588/Broovy-Compiler" target="_blank" rel="noopener">GitHub ↗</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
